@@ -115,22 +115,10 @@
       z-index: -1;
       width: 100%;
       height: 100%;
-      background: linear-gradient(90deg,rgb(68, 68, 68),rgb(126, 126, 126),rgb(196, 196, 196),rgb(255, 255, 255),rgb(196, 196, 196),rgb(126, 126, 126),rgb(68, 68, 68));
+      background: linear-gradient(45deg,rgb(68, 68, 68),rgb(126, 126, 126),rgb(196, 196, 196),rgb(255, 255, 255),rgb(196, 196, 196));
       background-size: 300%;
       border-radius: 5px;
-      animation: glowing 10s linear infinite;
     }
-
-    @keyframes glowing {
-      0%{
-        background-position: 0 0;
-        
-      }
-      100%{
-        background-position: 400% 0;
-      }
-    }
-
   }
 
   #scroll-trigger {
